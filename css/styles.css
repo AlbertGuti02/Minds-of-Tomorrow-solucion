@@ -3,8 +3,42 @@
     font-family: 'Quicksand', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 10%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: 0.4s;
+    font-size: 20px;
+}
+
+li {
+    float: left;
+    width: 25%;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+    color: white;
 }
 
 
